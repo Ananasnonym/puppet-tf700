@@ -1,0 +1,5 @@
+class autostart {
+	file { "/etc/xdg/lxsession/Lubuntu":
+owner => "root",
+group => "root",
+mode => 644,
