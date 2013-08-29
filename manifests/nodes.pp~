@@ -1,4 +1,5 @@
-node 'tf700.buildd' { 
+node 'tf700.buildd' {
+include x11
 include conky
 include autostart
 }
